@@ -1,10 +1,10 @@
-# ⚡ LOAD & SEC STUDIO (Spectrum Engine)
+#  LOAD & SEC STUDIO (Spectrum Engine) https://spectrum-key-teste.onrender.com
 
 > Platforma unificada de testes de carga, análise DAST (vulnerabilidades OWASP), diagnóstico visual e geração automatizada de relatórios em PDF.
 
 ---
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 
 O **LOAD & SEC STUDIO** é uma solução de auditoria web projetada para executar varreduras de segurança DAST, métricas de volumetria/concorrência e geração de evidências visuais e documentais de páginas web. 
 
@@ -12,7 +12,7 @@ A ferramenta foi construída utilizando **FastAPI** no backend, automação híb
 
 ---
 
-## 🚀 Arquitetura e Tecnologias
+##  Arquitetura e Tecnologias
 
 * **Backend:** Python 3.10+, FastAPI, Uvicorn, HTTPX (assíncrono)
 * **Automação & Scraping:** Playwright, Selenium WebDriver, BeautifulSoup4
@@ -22,7 +22,7 @@ A ferramenta foi construída utilizando **FastAPI** no backend, automação híb
 
 ---
 
-## 🛠️ Desafios Técnicos Superados & Experiências
+##  Desafios Técnicos Superados & Experiências
 
 ### 1. Bypass de Restrições de iFrame (X-Frame-Options & CSP)
 * **Desafio:** Ao tentar espelhar sites externos no dashboard utilizando tags `<iframe>` tradicionais, o navegador bloqueava a exibição devido às políticas de segurança (`X-Frame-Options` e `Content-Security-Policy`) dos alvos.
@@ -38,7 +38,7 @@ A ferramenta foi construída utilizando **FastAPI** no backend, automação híb
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 .
